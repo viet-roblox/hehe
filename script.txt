@@ -52,17 +52,18 @@ local Tabs = {
 })
 
     Tabs.Main1:AddButton({
-    Title = "cilent scripts(script này cùi khuyên ko nên dùng)",
+    Title = "cilent scripts(key700member1234)",
     Description = "",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/2DsuRU5s/raw"))()
     end
 })
     
-    Tabs.Main1:AddButton({
-    Title="Redz Hub",
-    Description="",
+    Tabs.Main2:AddButton({
+    Title="fly gui ",
+    Description="cre việt",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/viet-roblox/viet/refs/heads/main/script.txt"))()
   end
 })
+
