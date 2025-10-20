@@ -10,7 +10,7 @@ ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
-ImageButton.Draggable = false
+ImageButton.Draggable = true
 ImageButton.Image = "http://www.roblox.com/asset/?id=79571141129989"
 
 UICorner.CornerRadius = UDim.new(1, 10) 
@@ -66,6 +66,7 @@ local Tabs = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/viet-roblox/viet/refs/heads/main/script.txt"))()
   end
 })
+
 
 
 
