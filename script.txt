@@ -37,7 +37,7 @@ local Tabs = {
 }
     Tabs.Main1:AddButton({
     Title = "speed hub",
-    Description = "",
+    Description = "key:rMChVgMZYJYHMGNtMvYkvDKasUFztRuG(đây là key vv tạm thời)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
     end
@@ -52,8 +52,8 @@ local Tabs = {
 })
 
     Tabs.Main1:AddButton({
-    Title = "cilent scripts(key700member1234)",
-    Description = "",
+    Title = "cilent scripts",
+    Description = "key:700member1234",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/2DsuRU5s/raw"))()
     end
@@ -66,4 +66,5 @@ local Tabs = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/viet-roblox/viet/refs/heads/main/script.txt"))()
   end
 })
+
 
