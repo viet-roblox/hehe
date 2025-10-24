@@ -11,7 +11,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=79571141129989"
+ImageButton.Image = "http://www.roblox.com/asset/?id=71119154056117"
 
 UICorner.CornerRadius = UDim.new(1, 10) 
 UICorner.Parent = ImageButton
@@ -24,7 +24,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
     Title = "Vietnguvaiz ",
-    SubTitle = "script tổng hợp (beta)",
+    SubTitle = "idk",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
@@ -66,6 +66,7 @@ local Tabs = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/viet-roblox/viet/refs/heads/main/script.txt"))()
   end
 })
+
 
 
 
