@@ -23,8 +23,8 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "Vietnguvaiz ",
-    SubTitle = "long chim",
+    Title = "Viet ",
+    SubTitle = "tổng hợp",
     TabWidth = 157,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true,
@@ -32,38 +32,50 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-        Main1=Window:AddTab({ Title="Script plan vs brainrot" }),
-        Main2=Window:AddTab({ Title="script tự làm" }),
+        Main0=Window:AddTab({ Title="Thông Tin" }),
+        Main1=Window:AddTab({ Title="plan vs brainrot" }),
+        Main2=Window:AddTab({ Title="mai update " }),
+        Main3=Window:AddTab({ Title="mai update" }),
+        Main4=Window:AddTab({ Title="mai update" }),
+       Main5=Window:AddTab({ Title="mai update" }),
 }
+    Tabs.Main0:AddButton({
+    Title = "Discord",
+    Description = "viet dep zai",
+    Callback = function()
+        setclipboard("https://discord.com/channels/@me/1251540671890718723")
+    end
+})
+
+    Tabs.Main0:AddButton({
+    Title = "ấn vào đây",
+    Description = "dán lên google",
+    Callback = function()
+        setclipboard("https://www.tiktok.com/@davoslingoagain/video/7563277456124153096?_r=1&_t=ZS-90lEgPdgG5I")
+    end
+})
+
     Tabs.Main1:AddButton({
     Title = "speed hub",
-    Description = "key:rMChVgMZYJYHMGNtMvYkvDKasUFztRuG(đây là key vv tạm thời)",
+    Description = "có key",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
     end
 })
-
-    Tabs.Main1:AddButton({
-    Title = "hendar",
-    Description = "",
-    Callback = function()
-        loadstring(game:HttpGet("https://github.com/collectorhenfi-wq/Hendarscriptt/raw/refs/heads/main/Plantvsbrainrotupdate.txt"))()
-    end
-})
-
-    Tabs.Main1:AddButton({
-    Title = "cilent scripts",
-    Description = "key:700member1234",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/2DsuRU5s/raw"))()
-    end
-})
     
-    Tabs.Main2:AddButton({
-    Title="fly gui ",
-    Description="cre việt",
+    Tabs.Main1:AddButton({
+    Title="hendar",
+    Description="",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/viet-roblox/viet/refs/heads/main/script.txt"))()
+	  loadstring(game:HttpGet("https://github.com/collectorhenfi-wq/Hendarscriptt/raw/refs/heads/main/Plantvsbrainrotupdate.txt"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="cilent scripts",
+    Description="key:700member1234",
+    Callback=function()
+	  loadstring(game:HttpGet("https://pastefy.app/2DsuRU5s/raw"))()
   end
 })
 
