@@ -34,7 +34,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
         Main0=Window:AddTab({ Title="Thông Tin" }),
         Main1=Window:AddTab({ Title="plan vs brainrot" }),
-        Main2=Window:AddTab({ Title="mai update " }),
+        Main2=Window:AddTab({ Title="99 night in Forset" }),
         Main3=Window:AddTab({ Title="mai update" }),
         Main4=Window:AddTab({ Title="mai update" }),
        Main5=Window:AddTab({ Title="mai update" }),
@@ -80,12 +80,13 @@ Tabs.Main1:AddButton({
 })
 
 Tabs.Main2:AddButton({
-    Title="cilent scripts",
-    Description="key:700member1234",
+    Title="script auto fram candy",
+    Description="ấn vào đây để sao chép script",
     Callback=function()
-	  loadstring(game:HttpGet("https://pastefy.app/2DsuRU5s/raw"))()
+	  setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/MQPS7/99-Night-in-the-Forset/refs/heads/main/CandyFarm'))()")
   end
 })
+
 
 
 
