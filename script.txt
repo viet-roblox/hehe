@@ -111,6 +111,13 @@ Tabs.Main2:AddButton({
   end
 })
 
+Tabs.Main2:AddButton({
+    Title="ronix hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7d8a2a1a9a562a403b52532e58a14065.lua"))()
+  end
+})
 
 
 
