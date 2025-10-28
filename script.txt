@@ -103,6 +103,13 @@ Tabs.Main2:AddButton({
   end
 })
 
+Tabs.Main2:AddButton({
+    Title="RINGTA HUB",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/99daysloader.github.io/refs/heads/main/ringta.lua"))()
+  end
+})
 
 
 
