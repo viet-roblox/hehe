@@ -79,6 +79,13 @@ Tabs.Main1:AddButton({
   end
 })
 
+Tabs.Main2:AddButton({
+    Title="cilent scripts",
+    Description="key:700member1234",
+    Callback=function()
+	  loadstring(game:HttpGet("https://pastefy.app/2DsuRU5s/raw"))()
+  end
+})
 
 
 
