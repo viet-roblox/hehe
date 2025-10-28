@@ -80,7 +80,7 @@ Tabs.Main1:AddButton({
 })
 
 Tabs.Main2:AddButton({
-    Title="script kaitun auto fram day",
+    Title="cao mod script kaitun auto fram day",
     Description="cre:caomod ",
     Callback=function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FNDayFarm.lua'))()
@@ -102,6 +102,7 @@ Tabs.Main2:AddButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
   end
 })
+
 
 
 
