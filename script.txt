@@ -92,8 +92,9 @@ Tabs.Main2:AddButton({
     Description="script này dupe trông cây🤯",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
-   end
+  end
 })
+
 
 
 
