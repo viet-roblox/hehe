@@ -80,10 +80,10 @@ Tabs.Main1:AddButton({
 })
 
 Tabs.Main2:AddButton({
-    Title="script auto fram candy",
-    Description="ấn vào đây để sao chép script",
+    Title="script kaitun auto fram day",
+    Description="cre:caomod ",
     Callback=function()
-	  setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/MQPS7/99-Night-in-the-Forset/refs/heads/main/CandyFarm'))()")
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FNDayFarm.lua'))()
   end
 })
 
@@ -102,6 +102,7 @@ Tabs.Main2:AddButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
   end
 })
+
 
 
 
