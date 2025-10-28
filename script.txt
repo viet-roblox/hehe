@@ -89,12 +89,19 @@ Tabs.Main2:AddButton({
 
 Tabs.Main2:AddButton({
     Title="fox name",
-    Description="script này dupe trông cây🤯",
+    Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
   end
 })
 
+Tabs.Main2:AddButton({
+    Title="fox name",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+  end
+})
 
 
 
