@@ -44,7 +44,7 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-	Main0 = Window:AddTab({ Title = "Thông Tin" }),
+	Main0 = Window:AddTab({ Title = "music :))" }),
 	Main1 = Window:AddTab({ Title = "plan vs brainrot" }),
 	Main2 = Window:AddTab({ Title = "99 night in Forset" }),
 	Main3 = Window:AddTab({ Title = "mai update" }),
@@ -147,6 +147,7 @@ Tabs.Main2:AddButton({
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7d8a2a1a9a562a403b52532e58a14065.lua"))()
 	end
 })
+
 
 
 
