@@ -47,15 +47,7 @@ local Tabs = {
     end
 })
 
-    Tabs.Main0:AddButton({
-    Title = "ấn vào đây",
-    Description = "dán lên google",
-    Callback = function()
-        setclipboard("https://www.tiktok.com/@davoslingoagain/video/7563277456124153096?_r=1&_t=ZS-90lEgPdgG5I")
-    end
-})
-
-    -- Main1 buttons
+-- Main1 buttons
 Tabs.Main1:AddButton({
 	Title = "speed hub",
 	Description = "có key",
@@ -120,6 +112,7 @@ Tabs.Main2:AddButton({
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7d8a2a1a9a562a403b52532e58a14065.lua"))()
 	end
 })
+
 
 
 
